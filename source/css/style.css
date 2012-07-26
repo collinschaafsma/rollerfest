@@ -320,18 +320,57 @@ that IE7/8 do not support :nth-child.
 
 .block-grid.five-up > li { width: 20%; padding: 0 8px 8px; }
 
-.row .offset-by-five {
-  margin-left: 41.667%;
-}
-
-.tow-left {
-  margin-left: -20%;
-}
-
 /*  .block-grid.five-up>li:nth-child(5n+1) {clear: left;} */
 /* Mobile Block Grids */
 @media only screen and (max-width: 767px) { .block-grid.mobile { margin-left: 0; }
   .block-grid.mobile > li { float: none; width: 100%; margin-left: 0; } }
+
+header {
+  margin-top: 10px;
+}
+
+.title-text {
+  font-family: 'Stardos Stencil', cursive;
+  text-transform: uppercase;
+}
+
+.when-where {
+  color: #00aeef;
+  font-size: 46px;
+  line-height: 41px;
+  text-shadow: 0.1em 0.1em #fff200;
+  padding-bottom: 11px;
+  -webkit-transform: rotate(2deg); 
+  -moz-transform: rotate(2deg);
+}
+
+.when-where span {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.quote {
+  color: #eb1c24;
+  font-size: 14px;
+  text-shadow: 0.1em 0.1em #fff200;
+  line-height: 14px;
+  -webkit-transform: rotate(1deg); 
+  -moz-transform: rotate(1deg);
+}
+
+.tagline {
+  color: #231f20;
+  font-size: 25px;
+  line-height: 25px;
+  text-shadow: 0.1em 0.1em #fff200;
+  -webkit-transform: rotate(2deg); 
+  -moz-transform: rotate(2deg);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
 
 .hero {
   background-image: url(/img/trilogy_head.png);
@@ -339,15 +378,66 @@ that IE7/8 do not support :nth-child.
 }
 
 .hero h1 {
-  margin-top: 186px;
-  margin-left: -118px;
+  margin-top: 22px;
 }
 
 .container {
   background-image: url(/img/color_field.png);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: 280px;
+  background-position-y: 296px;
+  width: 640px; max-width: 100%; min-width: 640px; margin: 0 auto;
+}
+
+.presented {
+  font-size: 10px;
+}
+
+.presented img {
+  padding: 5px 0 0 0;
+}
+
+.main {
+  -webkit-transform: rotate(2deg); 
+  -moz-transform: rotate(2deg);
+  margin-top: -20px;
+}
+
+.why {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
+  text-shadow: 0.1em 0.1em #fff200;
+  padding-bottom: 4px;
+}
+
+.where, .details {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  text-shadow: 0.1em 0.1em #fff200; 
+}
+
+.where span {
+  font-weight: normal;
+}
+
+h2 {
+  color: #000000;
+  font-size: 16px;
+  line-height: 16px;
+  text-shadow: 0.1em 0.1em #fff200;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+.pull-up {
+  margin-top: -122px;
+}
+
+p.details {
+  padding-bottom: 6px;
 }
 
 
