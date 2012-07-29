@@ -1,6 +1,6 @@
 #!/bin/bash
  build_dir="build"
- bucket="rollerfest"
+ bucket="www.rollerfest.org"
 
  bundle exec middleman build
  s3cmd put --recursive "$build_dir/"* "s3://$bucket/"
